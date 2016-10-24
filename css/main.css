@@ -65,25 +65,29 @@ header.navigation {
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-header > .right {
+ul.menu {
     display: flex;
-    margin-left: auto;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     align-items: center;
 }
 
-.right >  a + a:before{
+.menu li + li:before {
     content: "//";
-    padding: 0 5px;
+    padding: 0 4px;
+    color: #bfbfbf;
 }
 
 .footer {
     font-size: 0.8em;
 }
 
-#site-title {
+.site-title {
     font-size: 1.5em;
     font-weight: bold;
 }
