@@ -77,6 +77,7 @@ hr {
     flex-flow: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: baseline;
     margin-bottom: 1em;
     font-size: 1.1em;
 }
@@ -91,9 +92,11 @@ hr {
     justify-content: center;
 }
 
+
 /* menu separator */
-.menu li + li:before {
-    content: "//";
+
+.menu li+li:before {
+    content: "|";
     padding: 0 3px;
     color: #bfbfbf;
 }
@@ -103,17 +106,18 @@ hr {
 }
 
 .item-title {
-  display: flex;
-  flex-flow: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 0.5em;
 }
 
 .site-title {
     font-weight: bold;
+    margin-bottom: 0.5em;
 }
-
 
 .tag {
     padding: 2px 2px 2px 2px;
@@ -135,7 +139,7 @@ a.tag:hover {
     text-decoration: none;
 }
 
-.post > header {
+.post>header {
     display: flex;
     justify-content: space-between;
     align-items: center;
