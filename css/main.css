@@ -1,25 +1,36 @@
 body {
     margin: 0 auto;
     max-width: 42em;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, "Fira Sans", "Liberation Sans", Ubuntu, sans-serif;
     line-height: 1.5;
     padding: 2em 1em;
     color: #444;
 }
 
-h2 {
-    margin-top: 1em;
-    padding-top: 1em;
-}
-
 h1 {
     font-size: 2.3em;
+    margin: 0;
+    color: #222;
 }
 
-h1,
-h2,
+h2 {
+    margin: 0;
+    font-size: 1.3em;
+    color: #222;
+}
+
 strong {
-    color: #333;
+    color: #222;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
 }
 
 pre {
@@ -37,28 +48,28 @@ hr {
     margin-top: 1em;
 }
 
-section.frontpage {
+.frontpage {
     display: flex;
     flex-direction: column;
 }
 
-
-a {
-    color: #2980b9;
-    text-decoration: none;
+.posts .list,
+.tags div {
+    margin-left: 1em;
 }
 
-a:hover,
-a:focus {
-    text-decoration: underline;
+.frontpage section h1 {
+    margin-top: 0.5em;
+    margin-bottom: 0.2em;
+}
+
+.post-title {
+    font-size: 1.1em;
 }
 
 .post-date {
     color: grey;
-    font-size: 14px;
-    margin-top: -25px;
-    display: block;
-    position: relative;
+    font-size: 0.9em;
 }
 
 .navigation {
@@ -66,6 +77,8 @@ a:focus {
     flex-flow: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 1em;
+    font-size: 1.1em;
 }
 
 .navigation .menu {
@@ -75,11 +88,13 @@ a:focus {
     margin: 0;
     padding: 0;
     align-items: center;
+    justify-content: center;
 }
 
+/* menu separator */
 .menu li + li:before {
     content: "//";
-    padding: 0 4px;
+    padding: 0 3px;
     color: #bfbfbf;
 }
 
@@ -87,8 +102,15 @@ a:focus {
     font-size: 0.8em;
 }
 
+.item-title {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .site-title {
-    font-size: 1.5em;
     font-weight: bold;
 }
 
