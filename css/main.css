@@ -53,6 +53,16 @@ hr {
     flex-direction: column;
 }
 
+.posts>header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.rsslink {
+    font-size: 0.8em;
+}
+
 .posts .list,
 .tags div {
     margin-left: 1em;
@@ -78,7 +88,6 @@ hr {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: baseline;
-    margin-bottom: 1em;
     font-size: 1.1em;
 }
 
@@ -88,8 +97,7 @@ hr {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    align-items: center;
-    justify-content: center;
+    align-items: baseline;
 }
 
 
@@ -118,6 +126,7 @@ hr {
     font-weight: bold;
     margin-bottom: 0.5em;
 }
+
 
 .tag {
     padding: 2px 2px 2px 2px;
