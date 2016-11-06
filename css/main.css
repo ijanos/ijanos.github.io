@@ -36,7 +36,7 @@ a:focus {
 pre {
     background: #eee;
     padding: 5px 1px;
-    overflow: scroll;
+    overflow: auto;
 }
 
 hr {
