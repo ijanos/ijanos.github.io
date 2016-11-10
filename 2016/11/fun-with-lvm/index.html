@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <base href="http://blog.janosilles.com/">
+    <title>Fun with LVM | blog.janosilles.com</title>
+    <link rel="canonical" href="http://blog.janosilles.com/2016/11/fun-with-lvm/">
+    <link rel="stylesheet" href="http://blog.janosilles.com/css/main.css">
+    <link href="http://blog.janosilles.com/post/index.xml" rel="alternate" type="application/rss+xml" title="blog.janosilles.com" />
+    <meta name=viewport content="width=device-width, initial-scale=1">
+</head>
+
+<body lang="en">
+
+<header class="navigation">
+  <a class="site-title" href="http://blog.janosilles.com/">blog.janosilles.com</a>
+
+  <ul class="menu">
+    <li><a href="http://blog.janosilles.com/about/">About</a></li>
+    <li><a href="https://github.com/ijanos">GitHub</a></li>
+    <li><a href="https://www.goodreads.com/ijanos">Goodreads</a></li>
+    <li><a href="https://www.last.fm/user/ijanos">Last.FM</a></li>
+  </ul>
+</header>
+
+<article class="post">
+  <header>
+    <div>
+     <h1 class="title">Fun with LVM</h1>
+     <span class="date"> Nov 10, 2016</span>
+    </div>
+
+    
+    <div class="tags">
+        <a href="http://blog.janosilles.com/tags/linux" class="tag">linux</a>
+        <a href="http://blog.janosilles.com/tags/lvm" class="tag">lvm</a>
+    </div>
+    
+  </header>
+  <p>The OOM killer just killed one my tabs in Chrome. As it turned out I
+underestimated the size of the swap partition during Fedora installation on my
+work laptop a few years ago. Or maybe I shouldn&rsquo;t just let virtual machines idle
+in the background and open a gazillion of tabs in the browser at the same time.
+Anyways, I needed more swap space and thankfully this installation sits on an
+LVM volume group which allowed me to switch to a swap file, remove the swap
+partition and add the free space to the root volume. Here is how I did that:</p>
+
+<p>I created a new swapfile to use from now on. Six
+<a href="https://en.wikipedia.org/wiki/Gibibyte">gibibytes</a> should be enough, right?</p>
+
+<pre><code>fallocate -l 6G /swapfile
+</code></pre>
+
+<p>Creating the swap structure on it and making the system aware of the newly
+available swap space is easy.</p>
+
+<pre><code>mkswap /swapfile
+swapon /swapfile
+</code></pre>
+
+<p>At this point I had two swap locations with plenty of space available. I could
+have just stopped here, mind you, but where is the fun in that?</p>
+
+<p>I made the new swap file mounted automatically at boot with this line in
+<code>/etc/fstab</code></p>
+
+<pre><code>/swapfile  swap  swap  defaults,x-systemd.device-timeout=0 0 0
+</code></pre>
+
+<p>I also removed the line responsible for the swap partition, then disabled
+swapping on it:</p>
+
+<pre><code>swapoff /dev/vg/swap
+</code></pre>
+
+<p>I removed the logical volume. You can use <code>vgdisplay</code> or <code>pvs</code> before and after
+to see the available free space is indeed got bigger.</p>
+
+<pre><code>lvremove /dev/vg/swap
+</code></pre>
+
+<p>This is where the magic happens. I extended the root partition to use all the
+available free space:</p>
+
+<pre><code>lvextend -l +100%FREE /dev/vg/root
+</code></pre>
+
+<p>And finally resized the ext4 root filesystem to claim the space.</p>
+
+<pre><code>resize2fs /dev/vg/root
+</code></pre>
+
+<p>The whole procedure took about 5 minutes, everything online and mounted, nice
+and easy.</p>
+
+<p><em>Note to self</em>: don&rsquo;t forget to change the Linux kernel boot command line. In
+the default Fedora install it contains a reference to the swap partition and the
+system will not boot if the partition is missing. Edit <code>/etc/default/grub</code>
+accordingly then update the right grub config:</p>
+
+<pre><code>grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+</code></pre>
+
+</article><hr/>
+<div class="footer">
+The content of this page is licensed under (CC BY 4.0) a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+</div>
+
+</body>
+</html>

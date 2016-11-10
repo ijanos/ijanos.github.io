@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog.janosilles.com</title>
+    <link>http://blog.janosilles.com/tags/linux/index.xml</link>
+    <description>Recent content on blog.janosilles.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://blog.janosilles.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Fun with LVM</title>
+      <link>http://blog.janosilles.com/2016/11/fun-with-lvm/</link>
+      <pubDate>Thu, 10 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.janosilles.com/2016/11/fun-with-lvm/</guid>
+      <description>&lt;p&gt;The OOM killer just killed one my tabs in Chrome. As it turned out I
+underestimated the size of the swap partition during Fedora installation on my
+work laptop a few years ago. Or maybe I shouldn&amp;rsquo;t just let virtual machines idle
+in the background and open a gazillion of tabs in the browser at the same time.
+Anyways, I needed more swap space and thankfully this installation sits on an
+LVM volume group which allowed me to switch to a swap file, remove the swap
+partition and add the free space to the root volume. Here is how I did that:&lt;/p&gt;
+
+&lt;p&gt;I created a new swapfile to use from now on. Six
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Gibibyte&#34;&gt;gibibytes&lt;/a&gt; should be enough, right?&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;fallocate -l 6G /swapfile
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Creating the swap structure on it and making the system aware of the newly
+available swap space is easy.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mkswap /swapfile
+swapon /swapfile
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;At this point I had two swap locations with plenty of space available. I could
+have just stopped here, mind you, but where is the fun in that?&lt;/p&gt;
+
+&lt;p&gt;I made the new swap file mounted automatically at boot with this line in
+&lt;code&gt;/etc/fstab&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/swapfile  swap  swap  defaults,x-systemd.device-timeout=0 0 0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I also removed the line responsible for the swap partition, then disabled
+swapping on it:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;swapoff /dev/vg/swap
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I removed the logical volume. You can use &lt;code&gt;vgdisplay&lt;/code&gt; or &lt;code&gt;pvs&lt;/code&gt; before and after
+to see the available free space is indeed got bigger.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;lvremove /dev/vg/swap
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is where the magic happens. I extended the root partition to use all the
+available free space:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;lvextend -l +100%FREE /dev/vg/root
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And finally resized the ext4 root filesystem to claim the space.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;resize2fs /dev/vg/root
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The whole procedure took about 5 minutes, everything online and mounted, nice
+and easy.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note to self&lt;/em&gt;: don&amp;rsquo;t forget to change the Linux kernel boot command line. In
+the default Fedora install it contains a reference to the swap partition and the
+system will not boot if the partition is missing. Edit &lt;code&gt;/etc/default/grub&lt;/code&gt;
+accordingly then update the right grub config:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
