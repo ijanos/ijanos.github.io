@@ -160,6 +160,23 @@ a.tag:hover {
     margin-bottom: 0;
 }
 
+.post>header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.taglist>header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+}
+
 figure {
     margin: 0;
 }
