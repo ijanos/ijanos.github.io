@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.janosilles.com/2017/01/my-command-prompt/</loc>
+    <lastmod>2017-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.janosilles.com/2016/11/advent-of-code-is-coming/</loc>
     <lastmod>2016-11-30T00:00:00+00:00</lastmod>
   </url>
@@ -49,8 +54,20 @@
   </url>
   
   <url>
+    <loc>http://blog.janosilles.com/tags/cli/</loc>
+    <lastmod>2017-01-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.janosilles.com/tags/diy/</loc>
     <lastmod>2016-05-14T15:15:50+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.janosilles.com/tags/fish/</loc>
+    <lastmod>2017-01-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -86,7 +103,7 @@
   
   <url>
     <loc>http://blog.janosilles.com/post/</loc>
-    <lastmod>2016-11-30T00:00:00+00:00</lastmod>
+    <lastmod>2017-01-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -103,6 +120,12 @@
   </url>
   
   <url>
+    <loc>http://blog.janosilles.com/tags/rust/</loc>
+    <lastmod>2017-01-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.janosilles.com/tags/soldering/</loc>
     <lastmod>2016-05-14T15:15:50+02:00</lastmod>
     <priority>0</priority>
@@ -115,7 +138,7 @@
   
   <url>
     <loc>http://blog.janosilles.com/</loc>
-    <lastmod>2016-11-30T00:00:00+00:00</lastmod>
+    <lastmod>2017-01-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

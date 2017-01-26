@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fish on blog.janosilles.com</title>
+    <link>http://blog.janosilles.com/tags/fish/index.xml</link>
+    <description>Recent content in Fish on blog.janosilles.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://blog.janosilles.com/tags/fish/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>My command prompt</title>
+      <link>http://blog.janosilles.com/2017/01/my-command-prompt/</link>
+      <pubDate>Thu, 26 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.janosilles.com/2017/01/my-command-prompt/</guid>
+      <description>&lt;p&gt;I really like working in the command line, it just feels right for many tasks.
+When I first saw a GUI (Windows 98) as a child I could not figure out how to
+create a new folder so I opened a command prompt and used &amp;ldquo;the DOS window&amp;rdquo; to create the
+folder. I was 11 years old. Fast forward to today, I almost always have a
+terminal open and I spent way too much time on fiddling with the prompt I use.&lt;/p&gt;
+
+&lt;p&gt;This is what my prompt looks like in my home directory.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;~ ➜
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The key is minimalism. I don&amp;rsquo;t like the path taking up much space in long
+prompts so I only show the name of the current directory. I was not sure when I
+made this change, but in practice the name of the current directory is enough to
+orient myself and the few (really rare) times when it is not I simply issue a
+&lt;code&gt;pwd&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;space ➜ pwd
+/tmp/really/long/directory/paths/use/too/much/space
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;However I find it is useful to add context aware information to the prompt. Like
+the current git branch.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;.dotfiles (git:master) ➜
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Or the currently active python virtualenv.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;~ (venv:myvirtualenv) ➜
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Or the currently active rust toolchain, managed by &lt;a href=&#34;https://rustup.rs/&#34;&gt;rustup&lt;/a&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rustup_prompt_helper (rust:nightly) (git:master) ➜
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;All these additional things will appear based on environment variables and files
+in the current directory so they are not in the way when they would not be
+useful. Most if these are implemented in fish shell&amp;rsquo;s own language and I
+wrote a small utility script in rust, called &lt;a href=&#34;https://github.com/ijanos/rustup_prompt_helper&#34;&gt;rustup prompt
+helper&lt;/a&gt;, that prints the
+toolchain information.&lt;/p&gt;
+
+&lt;p&gt;And finally here is a screenshot to show what it looks like on my machine, with
+pretty colors.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;post/2016-11-20-fish-prompt/cli.png&#34; alt=&#34;colorful fish prompt&#34; title=&#34;colorful fish prompt&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The full config of my fish prompt can be found in my &lt;a href=&#34;https://github.com/ijanos/dotfiles/blob/master/fish/.config/fish/functions/fish_prompt.fish&#34;&gt;dotfiles repository on
+GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
