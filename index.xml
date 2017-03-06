@@ -62,7 +62,7 @@ toolchain information.&lt;/p&gt;
 &lt;p&gt;And finally here is a screenshot to show what it looks like on my machine, with
 pretty colors.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;post/2016-11-20-fish-prompt/cli.png&#34; alt=&#34;colorful fish prompt&#34; title=&#34;colorful fish prompt&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;post/2017-01-26-fish-prompt/cli.png&#34; alt=&#34;colorful fish prompt&#34; title=&#34;colorful fish prompt&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The full config of my fish prompt can be found in my &lt;a href=&#34;https://github.com/ijanos/dotfiles/blob/master/fish/.config/fish/functions/fish_prompt.fish&#34;&gt;dotfiles repository on
 GitHub&lt;/a&gt;.&lt;/p&gt;
