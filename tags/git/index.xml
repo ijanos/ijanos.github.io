@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git on blog.janosilles.com</title>
-    <link>http://blog.janosilles.com/tags/git/index.xml</link>
+    <link>http://blog.janosilles.com/tags/git/</link>
     <description>Recent content in Git on blog.janosilles.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://blog.janosilles.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Oct 2016 14:13:01 +0200</lastBuildDate>
+    
+	<atom:link href="http://blog.janosilles.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Hugo &amp; git submodules</title>
@@ -14,45 +17,7 @@
       <pubDate>Sun, 23 Oct 2016 14:13:01 +0200</pubDate>
       
       <guid>http://blog.janosilles.com/2016/10/hugo--git-submodules/</guid>
-      <description>&lt;p&gt;The official &lt;a href=&#34;https://gohugo.io/tutorials/github-pages-blog/&#34;&gt;Hugo tutorial&lt;/a&gt;
-suggests using git submodules to keep track of your blog on GitHub. This seemed
-like a good idea but after using this workflow I wonder why is it advertised at
-all. Every time I commit a change to my theme or publish a new version to GitHub
-Pages I have to create another commit in the parent repository too. While at
-first glance it makes sense to couple the blog content, the theme and the public
-HTML files together on a second thought I do not want to litter the history of
-the blog source repository with this information.&lt;/p&gt;
-
-&lt;p&gt;In case of the &lt;code&gt;public&lt;/code&gt; directory I see no reason to link its contents to the
-parent repository. I can see the point of doing this for the theme. If I keep my
-theme in a submodule then I can checkout any revision of the blog and build it
-with the version of the theme I used at that time. I do not consider this useful
-for me.&lt;/p&gt;
-
-&lt;p&gt;Git subtrees could be a solution, but with them I had to watch out every time to
-avoid commits that contains files both inside and outside of the subtree. I
-decided to go the dumb route instead. Keep full git repositories inside the
-&lt;code&gt;public&lt;/code&gt; and &lt;code&gt;themes&lt;/code&gt; directories and ignore them in the parent repository. The
-Hugo tutorials example deploy bash script works just the same but no commit is
-needed in the parent repository anymore.&lt;/p&gt;
-
-&lt;p&gt;Since I started with submodules I had to remove them first, which turned out to
-be harder than expected.&lt;/p&gt;
-
-&lt;p&gt;I deleted the &lt;code&gt;.gitmodules&lt;/code&gt; file and removed the mention of submodules from
-&lt;code&gt;.git/config&lt;/code&gt; and put the directories in &lt;code&gt;.gitignore&lt;/code&gt;. After committing and
-pushing these changes the GitHub interface still showed placeholders for the
-submodules. Cloning the repo created the empty directories, which is unusual.
-Trying to do a &lt;code&gt;submodule update --init --recursive&lt;/code&gt; results in an error:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;fatal: No url found for submodule path &#39;public&#39; in .gitmodules
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;I clearly messed up the removing. After looking at the output of &lt;code&gt;git ls-files
---stage&lt;/code&gt; I can see there are special files still in the repository, I had to
-remove these with &lt;code&gt;git rm&lt;/code&gt; to finish the work. I don&amp;rsquo;t see why the &lt;code&gt;git
-submodule&lt;/code&gt; command does not have a &lt;code&gt;remove&lt;/code&gt; or similar action.&lt;/p&gt;
-</description>
+      <description>The official Hugo tutorial suggests using git submodules to keep track of your blog on GitHub. This seemed like a good idea but after using this workflow I wonder why is it advertised at all. Every time I commit a change to my theme or publish a new version to GitHub Pages I have to create another commit in the parent repository too. While at first glance it makes sense to couple the blog content, the theme and the public HTML files together on a second thought I do not want to litter the history of the blog source repository with this information.</description>
     </item>
     
   </channel>

@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blog.janosilles.com</title>
-    <link>http://blog.janosilles.com/index.xml</link>
+    <link>http://blog.janosilles.com/</link>
     <description>Recent content on blog.janosilles.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Mar 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.janosilles.com/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://blog.janosilles.com/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Rant in the Shell</title>
@@ -15,124 +17,9 @@
       <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>http://blog.janosilles.com/2017/03/rant-in-the-shell/</guid>
-      <description>
-
-&lt;p&gt;I&amp;rsquo;ve just came home from watching the new Ghost in the Shell movie. Here is a
-somewhat spoilery rant I have to get off my chest. Still reading? Good. Gloves
-off from now on.&lt;/p&gt;
-
-&lt;p&gt;This movie is an insult to the original anime. Maybe I will soften up after a
-few days but right now I have really strong feelings against this film.&lt;/p&gt;
-
-&lt;h2 id=&#34;bad-adaptation-work&#34;&gt;Bad adaptation work&lt;/h2&gt;
-
-&lt;p&gt;The 2017 Ghost in the Shell is an average action flick and a really bad
-adaptation. Because it takes iconic scenes from the original anime I fear the
-movie will be praised for being &amp;ldquo;faithful&amp;rdquo; but I have to tell you, this
-faithfulness is only skin deep.&lt;/p&gt;
-
-&lt;p&gt;The copied scenes are watered down versions of the original, missing key
-elements that define the original cast of characters. I felt these reused scenes
-were tucked into the movie, lost their meaning, included because they trigger a
-reaction from people who seen the original. Take the famous fight scene in the
-water for example. In the anime it ends with Batou covering the naked Major with
-his jacket. A minor detail which tells us about their characters, both being
-superhuman robots which Major embraces, she doesnt feeling naked when not
-wearing any clothes yet Batou is not letting go of his humanity and see the
-human side of the Major, covering up her naked body.&lt;/p&gt;
-
-&lt;p&gt;The boat scene feels weird too. The Major accuses Batou that he will betray her.
-She does not trust him in this version of Ghost in the Shell, yet Batou knows
-her hiding place, never explained how or why. There is this strange dissonance,
-the film tries to convince you that they share a connection but fails to deliver
-why. In the original they are  two robotic soldiers fighting side by side for
-years, they grown to trust each other. In the new version Batou is mostly human,
-and he only knows the Major for a year, she is basically a new superweapon given
-to Section 9 for no obvious reason. The friendship is really underdeveloped.&lt;/p&gt;
-
-&lt;p&gt;The spider tank scene lost all its symbolism, no family tree, no allegories to
-evolution, just a dumb fight with the infuriating cliché where the bad guy is
-not pulling the trigger point blank but have a monologue instead. The scene
-where the Major jumps from the top of the building is in the movie two times. It
-is a famous scene, it is recognizable, but this is dumb fanservice, there is no
-reason to be there twice.&lt;/p&gt;
-
-&lt;p&gt;There is a basset hound in this film. In case you did not know these dogs are
-not really part of the Ghost in the Shell universe, they are in the anime
-because Mamoru Oshii, the director of the two anime movies, likes to put basset
-hounds in every film he makes. There was no reason to include the dogs in this
-movie, they tried to use them to developed Batou&amp;rsquo;s character, which is okay, but
-it was the only noticeable character development moment in the whole movie. For
-me, Batou was the only likeable character in this movie, his character deserved
-more.&lt;/p&gt;
-
-&lt;p&gt;The flat characters are a sore point for me. See, the anime is half an hour
-shorter than the new movie. It also contains many long, still shots and yet it
-gives you more information about the world, and it has better character
-development.&lt;/p&gt;
-
-&lt;h2 id=&#34;bad-cinematography&#34;&gt;Bad cinematography&lt;/h2&gt;
-
-&lt;p&gt;The editing messy is all over this film, after the boat scene batou somehow
-disappears when the Major is apprehended in the harbor. Another example is, the
-bar fight scene. In the beginning of the scene most of Section 9 is present
-together with the Major but after some shaky-cam fight cuts she is somehow
-separated for what it feels like almost an hour. She gets captured, interrogated
-and rescued while the team is doing&amp;hellip; what exactly?&lt;/p&gt;
-
-&lt;p&gt;The CGI sometimes did not blend in. Cars felt weird, fight scenes felt weird.  I
-could not help myself rolling my eyes when Motoko was leaping from one
-collapsing concrete structure to another in the final fight scene. This thing
-was dumb in The Hobbit when Legolas did it on a collapsing bridge but at least
-He was an elf, Motoko is heavy machinery but the CGI made her feel like some
-ragdoll jumping around.&lt;/p&gt;
-
-&lt;p&gt;Even with all these scenes, which sometimes imitate the original frame for
-frame, I feel they did not managed to find a coherent visual language that works
-well, I did not get any real impressions about the city or the inhabitants, the
-set pieces all felt generic.&lt;/p&gt;
-
-&lt;h2 id=&#34;bad-story&#34;&gt;Bad story&lt;/h2&gt;
-
-&lt;p&gt;I&amp;rsquo;m picking at structural editing errors but the plot is really weak too. The
-whole conflict of the movie is that people&amp;rsquo;s brains are put into cybernetic
-bodies against their will. They wants us to believe that In the future they did
-not find volunteers for this kind of thing while large parts of the populace are
-willingly alter their own bodies. No soldiers, no opportunistics mercenaries, no
-terminally ill were offered this new experimental procedure which could give
-them a new body. No, they had to use rebellious teenagers and memory erasing.
-What could possibly go wrong?&lt;/p&gt;
-
-&lt;p&gt;What is the motivation of the major? She wants revenge on every terrorist
-because they killed her family. She wants revenge on Kuze because he is a
-terrorist. Then she wants revenge on her creators because they used her against
-her will. An easy to digest revenge plot cliché.&lt;/p&gt;
-
-&lt;p&gt;The original anime plot is about rogue AI that wants to merge with a human mind
-in order to evolve. This may not fit well into the average Hollywood
-blockbuster, I agree. But take a look at the plot of another incarnation of the
-franchise, the second season of the Ghost in the Shell anime tv series titled
-Stand Alone Complex 2nd GIG. The creates of the new movie definitely knew about
-it because they cherry picked an important character, Hideo Kuze. The story
-revolved around an immigrant crisis in a future Japan where the immigrants are
-trying to gain independence while various forces are trying to brand them as
-terrorists and gaining political power this way. This is a plot of a TV anime
-series from 2002. Given the the current political climate, this plot could have
-been adapted into something much more relevant today.&lt;/p&gt;
-
-&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;The movie closes with the opening song of the original anime. An interesting
-choice. It definitely stopped me leaving early, but as I sat there it made me
-think of the original and how uninspired this adaptation was.&lt;/p&gt;
-
-&lt;p&gt;I have a feeling (hope?) that no one will remember this in a year and I do hope
-that Hollywood will not do these kind of adaptations. I much prefer adaptations
-where the creators look at the original, understand what made them great and
-create something new with those insights. This seems to work with literary
-adaptations, I think Arrival and Edge of Tomorrow  did a really job at adopting
-their source material.&lt;/p&gt;
-</description>
+      <description>I&amp;rsquo;ve just came home from watching the new Ghost in the Shell movie. Here is a somewhat spoilery rant I have to get off my chest. Still reading? Good. Gloves off from now on.
+This movie is an insult to the original anime. Maybe I will soften up after a few days but right now I have really strong feelings against this film.
+Bad adaptation work The 2017 Ghost in the Shell is an average action flick and a really bad adaptation.</description>
     </item>
     
     <item>
@@ -141,58 +28,7 @@ their source material.&lt;/p&gt;
       <pubDate>Thu, 26 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>http://blog.janosilles.com/2017/01/my-command-prompt/</guid>
-      <description>&lt;p&gt;I really like working in the command line, it just feels right for many tasks.
-When I first saw a GUI (Windows 98) as a child I could not figure out how to
-create a new folder so I opened a command prompt and used &amp;ldquo;the DOS window&amp;rdquo; to create the
-folder. I was 11 years old. Fast forward to today, I almost always have a
-terminal open and I spent way too much time on fiddling with the prompt I use.&lt;/p&gt;
-
-&lt;p&gt;This is what my prompt looks like in my home directory.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;~ ➜
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The key is minimalism. I don&amp;rsquo;t like the path taking up much space in long
-prompts so I only show the name of the current directory. I was not sure when I
-made this change, but in practice the name of the current directory is enough to
-orient myself and the few (really rare) times when it is not I simply issue a
-&lt;code&gt;pwd&lt;/code&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;space ➜ pwd
-/tmp/really/long/directory/paths/use/too/much/space
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;However I find it is useful to add context aware information to the prompt. Like
-the current git branch.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;.dotfiles (git:master) ➜
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Or the currently active python virtualenv.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;~ (venv:myvirtualenv) ➜
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Or the currently active rust toolchain, managed by &lt;a href=&#34;https://rustup.rs/&#34;&gt;rustup&lt;/a&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;rustup_prompt_helper (rust:nightly) (git:master) ➜
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;All these additional things will appear based on environment variables and files
-in the current directory so they are not in the way when they would not be
-useful. Most if these are implemented in fish shell&amp;rsquo;s own language and I
-wrote a small utility script in rust, called &lt;a href=&#34;https://github.com/ijanos/rustup_prompt_helper&#34;&gt;rustup prompt
-helper&lt;/a&gt;, that prints the
-toolchain information.&lt;/p&gt;
-
-&lt;p&gt;And finally here is a screenshot to show what it looks like on my machine, with
-pretty colors.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;post/2017-01-26-fish-prompt/cli.png&#34; alt=&#34;colorful fish prompt&#34; title=&#34;colorful fish prompt&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The full config of my fish prompt can be found in my &lt;a href=&#34;https://github.com/ijanos/dotfiles/blob/master/fish/.config/fish/functions/fish_prompt.fish&#34;&gt;dotfiles repository on
-GitHub&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>I really like working in the command line, it just feels right for many tasks. When I first saw a GUI (Windows 98) as a child I could not figure out how to create a new folder so I opened a command prompt and used &amp;ldquo;the DOS window&amp;rdquo; to create the folder. I was 11 years old. Fast forward to today, I almost always have a terminal open and I spent way too much time on fiddling with the prompt I use.</description>
     </item>
     
     <item>
@@ -201,26 +37,8 @@ GitHub&lt;/a&gt;.&lt;/p&gt;
       <pubDate>Wed, 30 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>http://blog.janosilles.com/2016/11/advent-of-code-is-coming/</guid>
-      <description>&lt;p&gt;This year&amp;rsquo;s &lt;a href=&#34;http://adventofcode.com&#34;&gt;Advent of Code&lt;/a&gt; starts in a few hours. I
-had a really good time participating in it last year. Having a programming
-puzzle to solve every day as count down to the holidays was surprisingly fun. I
-had a self imposed challenge of doing at least one commit every day which I then
-continued to pretty long commit streak right before GitHub
-&lt;a href=&#34;https://github.com/blog/2173-more-contributions-on-your-profile&#34;&gt;removed&lt;/a&gt; the
-counter.&lt;/p&gt;
-
-&lt;p&gt;Last year I was using python to solve the puzzles, you can check out &lt;a href=&#34;https://github.com/ijanos/advent2015&#34;&gt;my
-solutions&lt;/a&gt; on GitHub. This year I think I
-am going with my new love, &lt;a href=&#34;https://www.rust-lang.org/en-US/&#34;&gt;Rust&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;My only complaint about Advent of Code is that the leaderboards are based on the
-time you submit your answer, but since the puzzles go live early in the timezone
-I live in I sleep while the leaderboard gets filled.&lt;/p&gt;
-
-&lt;p&gt;In addition to the programming puzzles, I also recommend the vibrant
-&lt;a href=&#34;https://www.reddit.com/r/adventofcode/&#34;&gt;subreddit&lt;/a&gt; it had a great community
-last year.&lt;/p&gt;
-</description>
+      <description>This year&amp;rsquo;s Advent of Code starts in a few hours. I had a really good time participating in it last year. Having a programming puzzle to solve every day as count down to the holidays was surprisingly fun. I had a self imposed challenge of doing at least one commit every day which I then continued to pretty long commit streak right before GitHub removed the counter.
+Last year I was using python to solve the puzzles, you can check out my solutions on GitHub.</description>
     </item>
     
     <item>
@@ -229,70 +47,7 @@ last year.&lt;/p&gt;
       <pubDate>Thu, 10 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>http://blog.janosilles.com/2016/11/fun-with-lvm/</guid>
-      <description>&lt;p&gt;The OOM killer just killed one my tabs in Chrome. As it turned out I
-underestimated the size of the swap partition during Fedora installation on my
-work laptop a few years ago. Or maybe I shouldn&amp;rsquo;t just let virtual machines idle
-in the background and open a gazillion of tabs in the browser at the same time.
-Anyways, I needed more swap space and thankfully this installation sits on an
-LVM volume group which allowed me to switch to a swap file, remove the swap
-partition and add the free space to the root volume. Here is how I did that:&lt;/p&gt;
-
-&lt;p&gt;I created a new swapfile to use from now on. Six
-&lt;a href=&#34;https://en.wikipedia.org/wiki/Gibibyte&#34;&gt;gibibytes&lt;/a&gt; should be enough, right?&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;fallocate -l 6G /swapfile
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Creating the swap structure on it and making the system aware of the newly
-available swap space is easy.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;mkswap /swapfile
-swapon /swapfile
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;At this point I had two swap locations with plenty of space available. I could
-have just stopped here, mind you, but where is the fun in that?&lt;/p&gt;
-
-&lt;p&gt;I made the new swap file mounted automatically at boot with this line in
-&lt;code&gt;/etc/fstab&lt;/code&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;/swapfile  swap  swap  defaults,x-systemd.device-timeout=0 0 0
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;I also removed the line responsible for the swap partition, then disabled
-swapping on it:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;swapoff /dev/vg/swap
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;I removed the logical volume. You can use &lt;code&gt;vgdisplay&lt;/code&gt; or &lt;code&gt;pvs&lt;/code&gt; before and after
-to see the available free space is indeed got bigger.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;lvremove /dev/vg/swap
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This is where the magic happens. I extended the root partition to use all the
-available free space:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;lvextend -l +100%FREE /dev/vg/root
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;And finally resized the ext4 root filesystem to claim the space.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;resize2fs /dev/vg/root
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The whole procedure took about 5 minutes, everything online and mounted, nice
-and easy.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Note to self&lt;/em&gt;: don&amp;rsquo;t forget to change the Linux kernel boot command line. In
-the default Fedora install it contains a reference to the swap partition and the
-system will not boot if the partition is missing. Edit &lt;code&gt;/etc/default/grub&lt;/code&gt;
-accordingly then update the right grub config:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>The OOM killer just killed one my tabs in Chrome. As it turned out I underestimated the size of the swap partition during Fedora installation on my work laptop a few years ago. Or maybe I shouldn&amp;rsquo;t just let virtual machines idle in the background and open a gazillion of tabs in the browser at the same time. Anyways, I needed more swap space and thankfully this installation sits on an LVM volume group which allowed me to switch to a swap file, remove the swap partition and add the free space to the root volume.</description>
     </item>
     
     <item>
@@ -301,45 +56,7 @@ accordingly then update the right grub config:&lt;/p&gt;
       <pubDate>Sun, 23 Oct 2016 14:13:01 +0200</pubDate>
       
       <guid>http://blog.janosilles.com/2016/10/hugo--git-submodules/</guid>
-      <description>&lt;p&gt;The official &lt;a href=&#34;https://gohugo.io/tutorials/github-pages-blog/&#34;&gt;Hugo tutorial&lt;/a&gt;
-suggests using git submodules to keep track of your blog on GitHub. This seemed
-like a good idea but after using this workflow I wonder why is it advertised at
-all. Every time I commit a change to my theme or publish a new version to GitHub
-Pages I have to create another commit in the parent repository too. While at
-first glance it makes sense to couple the blog content, the theme and the public
-HTML files together on a second thought I do not want to litter the history of
-the blog source repository with this information.&lt;/p&gt;
-
-&lt;p&gt;In case of the &lt;code&gt;public&lt;/code&gt; directory I see no reason to link its contents to the
-parent repository. I can see the point of doing this for the theme. If I keep my
-theme in a submodule then I can checkout any revision of the blog and build it
-with the version of the theme I used at that time. I do not consider this useful
-for me.&lt;/p&gt;
-
-&lt;p&gt;Git subtrees could be a solution, but with them I had to watch out every time to
-avoid commits that contains files both inside and outside of the subtree. I
-decided to go the dumb route instead. Keep full git repositories inside the
-&lt;code&gt;public&lt;/code&gt; and &lt;code&gt;themes&lt;/code&gt; directories and ignore them in the parent repository. The
-Hugo tutorials example deploy bash script works just the same but no commit is
-needed in the parent repository anymore.&lt;/p&gt;
-
-&lt;p&gt;Since I started with submodules I had to remove them first, which turned out to
-be harder than expected.&lt;/p&gt;
-
-&lt;p&gt;I deleted the &lt;code&gt;.gitmodules&lt;/code&gt; file and removed the mention of submodules from
-&lt;code&gt;.git/config&lt;/code&gt; and put the directories in &lt;code&gt;.gitignore&lt;/code&gt;. After committing and
-pushing these changes the GitHub interface still showed placeholders for the
-submodules. Cloning the repo created the empty directories, which is unusual.
-Trying to do a &lt;code&gt;submodule update --init --recursive&lt;/code&gt; results in an error:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;fatal: No url found for submodule path &#39;public&#39; in .gitmodules
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;I clearly messed up the removing. After looking at the output of &lt;code&gt;git ls-files
---stage&lt;/code&gt; I can see there are special files still in the repository, I had to
-remove these with &lt;code&gt;git rm&lt;/code&gt; to finish the work. I don&amp;rsquo;t see why the &lt;code&gt;git
-submodule&lt;/code&gt; command does not have a &lt;code&gt;remove&lt;/code&gt; or similar action.&lt;/p&gt;
-</description>
+      <description>The official Hugo tutorial suggests using git submodules to keep track of your blog on GitHub. This seemed like a good idea but after using this workflow I wonder why is it advertised at all. Every time I commit a change to my theme or publish a new version to GitHub Pages I have to create another commit in the parent repository too. While at first glance it makes sense to couple the blog content, the theme and the public HTML files together on a second thought I do not want to litter the history of the blog source repository with this information.</description>
     </item>
     
     <item>
@@ -348,45 +65,8 @@ submodule&lt;/code&gt; command does not have a &lt;code&gt;remove&lt;/code&gt; o
       <pubDate>Mon, 08 Aug 2016 15:15:50 +0200</pubDate>
       
       <guid>http://blog.janosilles.com/2016/08/faster-aur-builds/</guid>
-      <description>&lt;p&gt;The process of building a package from AUR, the Arch Linux User Repository, is
-the following:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;download the PKGBUILD&lt;/li&gt;
-&lt;li&gt;makepkg will download, decompress and compile the source based on the
-PKGBUILD&lt;/li&gt;
-&lt;li&gt;compress the software into a &lt;code&gt;.tar.xz&lt;/code&gt; package&lt;/li&gt;
-&lt;li&gt;pacman will install the package via decompressing its contents into the filesystem&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;As you can see the last two steps are quite redundant. Compressing the files to
-then decompress them a few seconds later. If you are installing a large package
-like Google Chrome from the AUR you will notice these two steps take some time
-to finish, especially on weak hardware.&lt;/p&gt;
-
-&lt;p&gt;The building of the packages are done by the makepkg tool. The compressor is
-chosen based on the settings in the &lt;code&gt;/etc/makepkg.conf&lt;/code&gt; configuration file. This
-is its default state:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;# WARNING: Do NOT modify these variables unless you know what you are
-#          doing.
-#
-PKGEXT=&#39;.pkg.tar.xz&#39;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Makepkg chooses the compressor based on the specified package extension. If you
-omit the extension no compression will take place.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;PKGEXT=&#39;.pkg.tar&#39;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;From here on, locally built packages will not be compressed. They will be stored
-in an uncompressed &lt;code&gt;tar&lt;/code&gt; archive instead. Installing them will become almost
-instantaneous.&lt;/p&gt;
-
-&lt;p&gt;If you are not distributing your locally created packages then there no downside
-to this change.&lt;/p&gt;
-</description>
+      <description>The process of building a package from AUR, the Arch Linux User Repository, is the following:
+ download the PKGBUILD makepkg will download, decompress and compile the source based on the PKGBUILD compress the software into a .tar.xz package pacman will install the package via decompressing its contents into the filesystem  As you can see the last two steps are quite redundant. Compressing the files to then decompress them a few seconds later.</description>
     </item>
     
     <item>
@@ -395,37 +75,7 @@ to this change.&lt;/p&gt;
       <pubDate>Sat, 14 May 2016 15:15:50 +0200</pubDate>
       
       <guid>http://blog.janosilles.com/2016/05/asus-laptop-repair/</guid>
-      <description>&lt;p&gt;My sister has an ASUS K43 laptop that started misbehaving. Failing to detect and
-charge when the power cord was plugged in, making a connection with the plug
-become fiddly.  Warranty long gone, the response in repair shops was the classic
-&amp;ldquo;we have to change the motherboard&amp;rdquo;. Unsatisfied with that answer I found out
-that the power socket is a common fault in these ASUS machines and you can order
-replacement sockets for less than a US dollar on eBay. I watched three youtube
-videos, one about taking the laptop apart and two about desoldering and decided
-to take a shot at a repair. I bought some desoldering wick, borrowed a soldering
-station and got to it. What can go wrong? If I screw up I can still pay for a
-replacement motherboard.&lt;/p&gt;
-
-&lt;p&gt;Desoldering a piece from the motherboard took more time than expected. The
-solder did not want to stick to the wick at first but adding a little bit of
-fresh solder helped. I finished by adding a little solder and then sucking it up
-with the wick and managing to remove more than I added. Repeating this procedure
-for about an hour I removed the solder from all five legs. Here is the outcome:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;post/2016-05-14-ASUS-repair/before.jpg&#34; alt=&#34;desoldered power jack&#34; title=&#34;Desoldering complete&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;From this point it was easy, putting the new socket in and soldering it in
-place. Maybe not the best looking joints but keep in mind that this was the
-second time I held a soldering iron.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;post/2016-05-14-ASUS-repair/after.jpg&#34; alt=&#34;soldered new power jack&#34; title=&#34;Soldering complete&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I was a little anxious after reassembling and turning the laptop on, but the it
-worked! The power plug works again, no fiddling required. After closer
-inspection of the faulty socket I noticed that one of its legs was broken and
-probably could have been reattached with a little bit of solder without
-desoldering the whole socket, oh well, next time I will check the legs first.&lt;/p&gt;
-</description>
+      <description>My sister has an ASUS K43 laptop that started misbehaving. Failing to detect and charge when the power cord was plugged in, making a connection with the plug become fiddly. Warranty long gone, the response in repair shops was the classic &amp;ldquo;we have to change the motherboard&amp;rdquo;. Unsatisfied with that answer I found out that the power socket is a common fault in these ASUS machines and you can order replacement sockets for less than a US dollar on eBay.</description>
     </item>
     
     <item>
@@ -434,21 +84,7 @@ desoldering the whole socket, oh well, next time I will check the legs first.&lt
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://blog.janosilles.com/about/</guid>
-      <description>&lt;p&gt;Hi there, I&amp;rsquo;m János. This is my unique little corner on the internet where I keep
-my public thoughts, notes and rants about various topics, mostly software, open
-source, some pop culture and maybe boardgames. I write for my own entertainment
-and in the hope that writing will help me practising my written English skills.
-I&amp;rsquo;ll be really happy if you have any feedback about the blog, feel free to
-contact me through email: &lt;a href=&#34;mailto:hello@janosilles.com&#34;&gt;hello@janosilles.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Except where otherwise noted, content on this blog is licensed under a Creative
-Commons Attribution 4.0 International license as seen in the footer of the
-pages.&lt;/p&gt;
-
-&lt;p&gt;The blog is powered by &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; static site generator. The site
-source can be found on &lt;a href=&#34;https://github.com/ijanos/blog&#34;&gt;GitHub&lt;/a&gt; as well as &lt;a href=&#34;https://github.com/ijanos/hugo-theme-mijnimal&#34;&gt;my
-custom hugo theme&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>Hi there, I&amp;rsquo;m János. This is my unique little corner on the internet where I keep my public thoughts, notes and rants about various topics, mostly software, open source, some pop culture and maybe boardgames. I write for my own entertainment and in the hope that writing will help me practising my written English skills. I&amp;rsquo;ll be really happy if you have any feedback about the blog, feel free to contact me through email: hello@janosilles.</description>
     </item>
     
   </channel>

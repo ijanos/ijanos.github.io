@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Puzzle on blog.janosilles.com</title>
-    <link>http://blog.janosilles.com/tags/puzzle/index.xml</link>
+    <link>http://blog.janosilles.com/tags/puzzle/</link>
     <description>Recent content in Puzzle on blog.janosilles.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://blog.janosilles.com/tags/puzzle/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Nov 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.janosilles.com/tags/puzzle/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Advent of Code is coming</title>
@@ -14,26 +17,8 @@
       <pubDate>Wed, 30 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>http://blog.janosilles.com/2016/11/advent-of-code-is-coming/</guid>
-      <description>&lt;p&gt;This year&amp;rsquo;s &lt;a href=&#34;http://adventofcode.com&#34;&gt;Advent of Code&lt;/a&gt; starts in a few hours. I
-had a really good time participating in it last year. Having a programming
-puzzle to solve every day as count down to the holidays was surprisingly fun. I
-had a self imposed challenge of doing at least one commit every day which I then
-continued to pretty long commit streak right before GitHub
-&lt;a href=&#34;https://github.com/blog/2173-more-contributions-on-your-profile&#34;&gt;removed&lt;/a&gt; the
-counter.&lt;/p&gt;
-
-&lt;p&gt;Last year I was using python to solve the puzzles, you can check out &lt;a href=&#34;https://github.com/ijanos/advent2015&#34;&gt;my
-solutions&lt;/a&gt; on GitHub. This year I think I
-am going with my new love, &lt;a href=&#34;https://www.rust-lang.org/en-US/&#34;&gt;Rust&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;My only complaint about Advent of Code is that the leaderboards are based on the
-time you submit your answer, but since the puzzles go live early in the timezone
-I live in I sleep while the leaderboard gets filled.&lt;/p&gt;
-
-&lt;p&gt;In addition to the programming puzzles, I also recommend the vibrant
-&lt;a href=&#34;https://www.reddit.com/r/adventofcode/&#34;&gt;subreddit&lt;/a&gt; it had a great community
-last year.&lt;/p&gt;
-</description>
+      <description>This year&amp;rsquo;s Advent of Code starts in a few hours. I had a really good time participating in it last year. Having a programming puzzle to solve every day as count down to the holidays was surprisingly fun. I had a self imposed challenge of doing at least one commit every day which I then continued to pretty long commit streak right before GitHub removed the counter.
+Last year I was using python to solve the puzzles, you can check out my solutions on GitHub.</description>
     </item>
     
   </channel>
