@@ -6,10 +6,21 @@
     <description>Recent content on blog.janosilles.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 May 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://blog.janosilles.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My Raspberry Pi 3 setup</title>
+      <link>http://blog.janosilles.com/2017/05/my-raspberry-pi-3-setup/</link>
+      <pubDate>Wed, 10 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.janosilles.com/2017/05/my-raspberry-pi-3-setup/</guid>
+      <description>I recently bought a Raspberry Pi 3 mainly for media playback purposes. Here is the setup process to remember later.
+My distro of choice is Arch Linux ARM. Arch Linux has a really nice set of documentation, I recommend these two to get started:
+ https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-3 https://wiki.archlinux.org/index.php/Raspberry_Pi  UART setup I like to set up these small computers without keyboards or a monitor. One way to do this is to use ssh and connect to the device and the other is to use the serial console.</description>
+    </item>
     
     <item>
       <title>Rant in the Shell</title>
@@ -24,10 +35,10 @@ Bad adaptation work The 2017 Ghost in the Shell is an average action flick and a
     
     <item>
       <title>My command prompt</title>
-      <link>http://blog.janosilles.com/2017/01/my-command-prompt/</link>
+      <link>http://blog.janosilles.com/2017/01/my-command-prompt.html</link>
       <pubDate>Thu, 26 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.janosilles.com/2017/01/my-command-prompt/</guid>
+      <guid>http://blog.janosilles.com/2017/01/my-command-prompt.html</guid>
       <description>I really like working in the command line, it just feels right for many tasks. When I first saw a GUI (Windows 98) as a child I could not figure out how to create a new folder so I opened a command prompt and used &amp;ldquo;the DOS window&amp;rdquo; to create the folder. I was 11 years old. Fast forward to today, I almost always have a terminal open and I spent way too much time on fiddling with the prompt I use.</description>
     </item>
     
@@ -71,10 +82,10 @@ Last year I was using python to solve the puzzles, you can check out my solution
     
     <item>
       <title>ASUS laptop repair</title>
-      <link>http://blog.janosilles.com/2016/05/asus-laptop-repair/</link>
+      <link>http://blog.janosilles.com/2016/05/asus-laptop-repair.html</link>
       <pubDate>Sat, 14 May 2016 15:15:50 +0200</pubDate>
       
-      <guid>http://blog.janosilles.com/2016/05/asus-laptop-repair/</guid>
+      <guid>http://blog.janosilles.com/2016/05/asus-laptop-repair.html</guid>
       <description>My sister has an ASUS K43 laptop that started misbehaving. Failing to detect and charge when the power cord was plugged in, making a connection with the plug become fiddly. Warranty long gone, the response in repair shops was the classic &amp;ldquo;we have to change the motherboard&amp;rdquo;. Unsatisfied with that answer I found out that the power socket is a common fault in these ASUS machines and you can order replacement sockets for less than a US dollar on eBay.</description>
     </item>
     

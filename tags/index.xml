@@ -104,7 +104,7 @@
     <item>
       <title>Linux</title>
       <link>http://blog.janosilles.com/tags/linux/</link>
-      <pubDate>Thu, 10 Nov 2016 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 10 May 2017 00:00:00 +0000</pubDate>
       
       <guid>http://blog.janosilles.com/tags/linux/</guid>
       <description></description>
@@ -143,6 +143,15 @@
       <pubDate>Wed, 30 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>http://blog.janosilles.com/tags/puzzle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi</title>
+      <link>http://blog.janosilles.com/tags/raspberry-pi/</link>
+      <pubDate>Wed, 10 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.janosilles.com/tags/raspberry-pi/</guid>
       <description></description>
     </item>
     
